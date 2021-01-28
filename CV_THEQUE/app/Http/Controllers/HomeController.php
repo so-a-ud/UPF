@@ -27,12 +27,22 @@ class HomeController extends Controller
     }
 
     /**
-     * Show the application dashboard.
+     * Show the admin dashboard.
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
     public function adminHome()
     {
         return view('admin/index');
+    }
+
+    /**
+     * Show the student dashboard.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function StudentHome()
+    {
+        return view('student/index');
     }
 }

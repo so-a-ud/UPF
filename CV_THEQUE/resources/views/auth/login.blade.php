@@ -16,7 +16,10 @@
                                         <label>Password</label>
                                         </div>
                                         <a href="">
-                                        
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
                                         <button type="submit" class="btn btn-primary">
                                     {{ __('Login') }}
                                     </button>
