@@ -25,7 +25,7 @@ class AdminController extends Controller
         $user = User::create([
             'name' => request('nom'),
             'email' => request('email'),
-            'is_admin'=>'0',
+            'is_admin'=>'2',
             'password'=> bcrypt(request('password')),
         ]);
         $student = Etudiant::create([
@@ -92,7 +92,7 @@ class AdminController extends Controller
         $user = User::create([
             'name' => request('nom'),
             'email' => request('email'),
-            'is_admin'=>'0',
+            'is_admin'=>'3',
             'password'=> bcrypt(request('password')),
         ]);
         $rec = Recruteur::create([

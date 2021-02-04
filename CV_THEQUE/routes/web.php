@@ -38,3 +38,6 @@ Route::get('admin/recruteurs/edit/{id}', [App\Http\Controllers\AdminController::
 Route::post('admin/recruteurs/update', [App\Http\Controllers\AdminController::class, 'updateRec'])->name('admin.recruteurs.update')->middleware('is_admin');
 Route::delete('admin/recruteurs/delete/{id}', [App\Http\Controllers\AdminController::class, 'destroyRec'])->name('admin.recruteurs.destroy')->middleware('is_admin');
 
+Route::get('student/home', [App\Http\Controllers\HomeController::class, 'StudentHome'])->name('student.home')->middleware('is_student');
+Route::post('change-password', [App\Http\Controllers\ChangePasswordController::class,'store'])->name('change.password');
+Route::get('change-cv', [App\Http\Controllers\ExperienceProfessionnelleController::class,'index'])->name('cv');

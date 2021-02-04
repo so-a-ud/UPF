@@ -7468,6 +7468,7 @@
             "install-path": "../webmozart/assert"
         }
     ],
+<<<<<<< HEAD
     "dev": true,
     "dev-package-names": [
         "doctrine/instantiator",
@@ -7511,4 +7512,7 @@
         "sebastian/version",
         "theseer/tokenizer"
     ]
+=======
+    "dev": true
+>>>>>>> 73df916f6294c865ce6c15bfd4191863ee078a0b
 }
