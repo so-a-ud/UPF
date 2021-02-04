@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7da6edea-8267-41d5-8611-2d59c6c6412f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/contenu.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CV_THEQUE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CV_THEQUE.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,6 +130,8 @@
       <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
       <path value="$PROJECT_DIR$/vendor/sebastian/complexity" />
       <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-permission" />
+      <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
     </include_path>
   </component>
   <component name="ProjectId" id="1mcYbpDFnMfzpqC3jVuM16NnlRn" />
@@ -167,6 +174,13 @@
       <workItem from="1609796710643" duration="1678000" />
       <workItem from="1609800279025" duration="4879000" />
       <workItem from="1609864060037" duration="13997000" />
+      <workItem from="1610621813515" duration="29000" />
+      <workItem from="1610621844349" duration="7049000" />
+      <workItem from="1611440460412" duration="1035000" />
+      <workItem from="1611497028192" duration="443000" />
+      <workItem from="1611956284591" duration="2488000" />
+      <workItem from="1612377042870" duration="1192000" />
+      <workItem from="1612439428759" duration="88000" />
     </task>
     <servers />
   </component>

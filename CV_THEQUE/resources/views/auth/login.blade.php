@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('content')                             
+@section('content')
                                     <div class="login-box">
                                     <form method="POST" action="{{ route('login') }}">
                                     @csrf
@@ -9,18 +9,18 @@
                                     <form>
                                         <div class="user-box">
                                         <input type="text" name="email" required="">
-                                        <label>E-Mail Address</label>
+                                        <label>e-mail</label>
                                         </div>
                                         <div class="user-box">
                                         <input type="password" name="password" required="">
                                         <label>Password</label>
                                         </div>
                                         <a href="">
-                                        
+
                                         <button type="submit" class="btn btn-primary">
                                     {{ __('Login') }}
                                     </button>
-                        
+
                                         </a>
                                     </form>
                                     </form>
@@ -196,4 +196,4 @@
 
                                     </Style>
                                     </div>
-                                
+
